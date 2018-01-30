@@ -1,0 +1,102 @@
+﻿生成启动时间为 2018/1/27 16:35:52。
+     1>项目“E:\Local Repositories\KAZE\KAZE_opencv\kaze_opencv-1-master_yuhuazou\zou_KAZE\zou_KAZE\zou_KAZE.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\program\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\KazeOpenCV.cpp
+         KazeOpenCV.cpp
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv-1-master_yuhuazou\kaze\kaze_config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(114): warning C4348: “cv::AutoBuffer”: 重定义默认参数 : 参数 2
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(3222) : 参见“cv::AutoBuffer”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(152): error C2953: “cv::AutoBuffer”: 类模板已经定义
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(3222) : 参见“cv::AutoBuffer”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(178): error C2572: “cv::redirectError”: 重定义默认参数 : 参数 3
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(206) : 参见“cv::redirectError”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(178): error C2572: “cv::redirectError”: 重定义默认参数 : 参数 2
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(206) : 参见“cv::redirectError”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(187): error C2572: “cv::tempfile”: 重定义默认参数 : 参数 1
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(125) : 参见“cv::tempfile”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(188): error C2572: “cv::glob”: 重定义默认参数 : 参数 3
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(228) : 参见“cv::glob”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(427): error C2572: “cv::alignPtr”: 重定义默认参数 : 参数 2
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(331) : 参见“cv::alignPtr”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(427): error C2995: “_Tp *cv::alignPtr(_Tp *,int)”: 函数模板已经定义
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(331) : 参见“cv::alignPtr”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(437): error C2084: 函数“size_t cv::alignSize(size_t,int)”已有主体
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(341) : 参见“alignSize”的前一个定义
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(463): error C2084: 函数“size_t cv::getElemSize(int)”已有主体
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(1482) : 参见“getElemSize”的前一个定义
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(470): error C2011: “cv::ParallelLoopBody”:“class”类型重定义
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(4852) : 参见“cv::ParallelLoopBody”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(478): error C2572: “cv::parallel_for_”: 重定义默认参数 : 参数 3
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(4858) : 参见“cv::parallel_for_”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(482): error C2039: “forEach_impl”: 不是“cv::Mat”的成员
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(1709) : 参见“cv::Mat”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(579): error C2011: “cv::Mutex”:“class”类型重定义
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(4863) : 参见“cv::Mutex”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(596): error C2011: “cv::AutoLock”:“class”类型重定义
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(4880) : 参见“cv::AutoLock”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(609): error C2011: “cv::TLSDataContainer”:“class”类型重定义
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(4892) : 参见“cv::TLSDataContainer”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(655): error C2953: “cv::TLSData”: 类模板已经定义
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(4906) : 参见“cv::TLSData”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(735): error C2011: “cv::CommandLineParser”:“class”类型重定义
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(4782) : 参见“cv::CommandLineParser”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(892): error C2244: “cv::AutoBuffer<_Tp,fixed_size>::{ctor}”: 无法将函数定义与现有的声明匹配
+                 定义
+                 'cv::AutoBuffer::AutoBuffer(void)'
+                 现有声明
+                 'cv::AutoBuffer<_Tp,fixed_size>::AutoBuffer(size_t)'
+                 'cv::AutoBuffer<_Tp,fixed_size>::AutoBuffer(void)'
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(900): error C2244: “cv::AutoBuffer<_Tp,fixed_size>::{ctor}”: 无法将函数定义与现有的声明匹配
+                 定义
+                 'cv::AutoBuffer::AutoBuffer(size_t)'
+                 现有声明
+                 'cv::AutoBuffer<_Tp,fixed_size>::AutoBuffer(size_t)'
+                 'cv::AutoBuffer<_Tp,fixed_size>::AutoBuffer(void)'
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(910): error C2244: “cv::AutoBuffer<_Tp,fixed_size>::{ctor}”: 无法将函数定义与现有的声明匹配
+                 定义
+                 'cv::AutoBuffer::AutoBuffer(const cv::AutoBuffer &)'
+                 现有声明
+                 'cv::AutoBuffer<_Tp,fixed_size>::AutoBuffer(size_t)'
+                 'cv::AutoBuffer<_Tp,fixed_size>::AutoBuffer(void)'
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(913): error C2039: “=”: 不是“cv::AutoBuffer”的成员
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(3222) : 参见“cv::AutoBuffer”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(927): error C2244: “cv::AutoBuffer<_Tp,fixed_size>::~AutoBuffer”: 无法将函数定义与现有的声明匹配
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(3232) : 参见“cv::AutoBuffer<_Tp,fixed_size>::~AutoBuffer”的声明
+                 定义
+                 'cv::AutoBuffer::~AutoBuffer(void)'
+                 现有声明
+                 'cv::AutoBuffer<_Tp,fixed_size>::~AutoBuffer(void)'
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(943): error C2244: “cv::AutoBuffer<_Tp,fixed_size>::allocate”: 无法将函数定义与现有的声明匹配
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(3235) : 参见“cv::AutoBuffer<_Tp,fixed_size>::allocate”的声明
+                 定义
+                 'void cv::AutoBuffer::allocate(size_t)'
+                 现有声明
+                 'void cv::AutoBuffer<_Tp,fixed_size>::allocate(size_t)'
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(954): error C2244: “cv::AutoBuffer<_Tp,fixed_size>::deallocate”: 无法将函数定义与现有的声明匹配
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(3237) : 参见“cv::AutoBuffer<_Tp,fixed_size>::deallocate”的声明
+                 定义
+                 'void cv::AutoBuffer::deallocate(void)'
+                 现有声明
+                 'void cv::AutoBuffer<_Tp,fixed_size>::deallocate(void)'
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(957): error C2039: “resize”: 不是“cv::AutoBuffer”的成员
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(3222) : 参见“cv::AutoBuffer”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(982): error C2063: “cv::AutoBuffer<_Tp,fixed_size>::size”: 不是一个函数
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(982): error C2350: “cv::AutoBuffer<_Tp,fixed_size>::size”不是静态成员
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(985): error C2738: “operator _Tp *”: 不明确或者不是“cv::AutoBuffer”的成员
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(3222) : 参见“cv::AutoBuffer”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(986): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(989): error C2738: “operator const _Tp *”: 不明确或者不是“cv::AutoBuffer”的成员
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(3222) : 参见“cv::AutoBuffer”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(990): error C2270: “$S2”: 非成员函数上不允许修饰符
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(990): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(993): error C2027: 使用了未定义类型“cv::CommandLineParser”
+                 d:\program\opencv\build\include\opencv2\core\core.hpp(4782) : 参见“cv::CommandLineParser”的声明
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(996): error C2270: “get”: 非成员函数上不允许修饰符
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(996): error C2912: 显式专用化；“std::string cv::get(int,bool)”不是函数模板的专用化
+     1>d:\program\opencv3\install\include\opencv2\core\utility.hpp(996): fatal error C1903: 无法从以前的错误中恢复；正在停止编译
+     1>已完成生成项目“E:\Local Repositories\KAZE\KAZE_opencv\kaze_opencv-1-master_yuhuazou\zou_KAZE\zou_KAZE\zou_KAZE.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.08

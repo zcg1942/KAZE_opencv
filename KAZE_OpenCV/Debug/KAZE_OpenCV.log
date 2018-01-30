@@ -1,0 +1,288 @@
+﻿生成启动时间为 2018/1/19 11:31:37。
+     1>项目“E:\Local Repositories\KAZE\KAZE_OpenCV\KAZE_OpenCV\KAZE_OpenCV.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\program\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt kaze.cpp KazeOpenCV.cpp kaze_config.cpp kaze_features.cpp kaze_ipoint.cpp kaze_nldiffusion_functions.cpp kaze_utils.cpp
+         kaze_utils.cpp
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_utils.cpp(140): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_utils.cpp(143): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_utils.cpp(144): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         kaze_nldiffusion_functions.cpp
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(67): error C2905: “<unnamed-tag>::DEFAULT_SCALE_OFFSET”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(68): error C2905: “<unnamed-tag>::DEFAULT_OCTAVE_MAX”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(69): error C2905: “<unnamed-tag>::DEFAULT_NSUBLEVELS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(70): error C2905: “<unnamed-tag>::DEFAULT_DETECTOR_THRESHOLD”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(71): error C2905: “<unnamed-tag>::DEFAULT_MIN_DETECTOR_THRESHOLD”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(72): error C2905: “<unnamed-tag>::DEFAULT_DESCRIPTOR_MODE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(73): error C2905: “<unnamed-tag>::DEFAULT_UPRIGHT”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(74): error C2905: “<unnamed-tag>::DEFAULT_EXTENDED”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(75): error C2905: “<unnamed-tag>::DEFAULT_SAVE_SCALE_SPACE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(76): error C2905: “<unnamed-tag>::DEFAULT_VERBOSITY”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(77): error C2905: “<unnamed-tag>::DEFAULT_SHOW_RESULTS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(78): error C2905: “<unnamed-tag>::DEFAULT_SAVE_KEYPOINTS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(81): error C2905: “<unnamed-tag>::DEFAULT_SIGMA_SMOOTHING_DERIVATIVES”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(82): error C2905: “<unnamed-tag>::DEFAULT_KCONTRAST”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(83): error C2905: “<unnamed-tag>::KCONTRAST_PERCENTILE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(84): error C2905: “<unnamed-tag>::KCONTRAST_NBINS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(85): error C2905: “<unnamed-tag>::COMPUTE_KCONTRAST”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(86): error C2905: “<unnamed-tag>::SUBPIXEL_REFINEMENT”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(87): error C2905: “<unnamed-tag>::DEFAULT_DIFFUSIVITY_TYPE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(88): error C2905: “<unnamed-tag>::USE_CLIPPING_NORMALIZATION”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(89): error C2905: “<unnamed-tag>::CLIPPING_NORMALIZATION_RATIO”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(90): error C2905: “<unnamed-tag>::CLIPPING_NORMALIZATION_NITER”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(91): error C2905: “<unnamed-tag>::PI”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(92): error C2905: “<unnamed-tag>::M2_PI”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.h(25): error C2905: “<unnamed-tag>::use_natural_coordinates”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.cpp(30): error C2059: 语法错误:“namespace”
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.cpp(30): error C2238: 意外的标记位于“;”之前
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.cpp(45): error C2535: “void <unnamed-tag>::Gaussian_2D_Convolution(const cv::Mat &,cv::Mat &,unsigned int,unsigned int,float)”: 已经定义或声明成员函数
+                 e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.h(31) : 参见“<unnamed-tag>::Gaussian_2D_Convolution”的声明
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.cpp(80): error C2535: “void <unnamed-tag>::Image_Derivatives_SD(const cv::Mat &,cv::Mat &,unsigned int,unsigned int)”: 已经定义或声明成员函数
+                 e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.h(32) : 参见“<unnamed-tag>::Image_Derivatives_SD”的声明
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.cpp(174): error C2535: “void <unnamed-tag>::Image_Derivatives_Scharr(const cv::Mat &,cv::Mat &,unsigned int,unsigned int)”: 已经定义或声明成员函数
+                 e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.h(33) : 参见“<unnamed-tag>::Image_Derivatives_Scharr”的声明
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.cpp(198): error C2535: “void <unnamed-tag>::Compute_Gaussian_2D_Derivatives(const cv::Mat &,cv::Mat &,cv::Mat &,cv::Mat &,cv::Mat &,cv::Mat &,cv::Mat &,unsigned int,unsigned int,float)”: 已经定义或声明成员函数
+                 e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.h(34) : 参见“<unnamed-tag>::Compute_Gaussian_2D_Derivatives”的声明
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.cpp(232): error C2535: “void <unnamed-tag>::PM_G1(const cv::Mat &,cv::Mat &,cv::Mat &,cv::Mat &,float)”: 已经定义或声明成员函数
+                 e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.h(37) : 参见“<unnamed-tag>::PM_G1”的声明
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.cpp(261): error C2535: “void <unnamed-tag>::PM_G2(const cv::Mat &,cv::Mat &,cv::Mat &,cv::Mat &,float)”: 已经定义或声明成员函数
+                 e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.h(38) : 参见“<unnamed-tag>::PM_G2”的声明
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.cpp(292): error C2535: “void <unnamed-tag>::Weickert_Diffusivity(const cv::Mat &,cv::Mat &,cv::Mat &,cv::Mat &,float)”: 已经定义或声明成员函数
+                 e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.h(39) : 参见“<unnamed-tag>::Weickert_Diffusivity”的声明
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.cpp(331): error C2535: “float <unnamed-tag>::Compute_K_Percentile(const cv::Mat &,float,float,unsigned int,unsigned int,unsigned int)”: 已经定义或声明成员函数
+                 e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.h(40) : 参见“<unnamed-tag>::Compute_K_Percentile”的声明
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.cpp(419): error C2535: “void <unnamed-tag>::Compute_Scharr_Derivatives(const cv::Mat &,cv::Mat &,int,int,int)”: 已经定义或声明成员函数
+                 e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.h(41) : 参见“<unnamed-tag>::Compute_Scharr_Derivatives”的声明
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.cpp(516): error C2535: “void <unnamed-tag>::NLD_Step_Scalar(cv::Mat &,const cv::Mat &,const cv::Mat &,float)”: 已经定义或声明成员函数
+                 e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.h(42) : 参见“<unnamed-tag>::NLD_Step_Scalar”的声明
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.cpp(560): error C2535: “bool <unnamed-tag>::Check_Maximum_Neighbourhood(cv::Mat &,int,float,int,int,bool)”: 已经定义或声明成员函数
+                 e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.h(43) : 参见“<unnamed-tag>::Check_Maximum_Neighbourhood”的声明
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.cpp(609): error C2535: “bool <unnamed-tag>::Check_Minimum_Neighbourhood(cv::Mat &,int,float,int,int,bool)”: 已经定义或声明成员函数
+                 e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.h(44) : 参见“<unnamed-tag>::Check_Minimum_Neighbourhood”的声明
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.cpp(643): fatal error C1075: 与左侧的 大括号“{”(位于“e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(63)”)匹配之前遇到文件结束
+         kaze_ipoint.cpp
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_ipoint.cpp(139): error C2039: “greater”: 不是“std”的成员
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_ipoint.cpp(139): error C2065: “greater”: 未声明的标识符
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_ipoint.cpp(139): error C2275: “Ipoint”: 将此类型用作表达式非法
+                 e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_ipoint.h(24) : 参见“Ipoint”的声明
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_ipoint.cpp(139): error C2059: 语法错误:“)”
+         kaze_features.cpp
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(67): error C2905: “<unnamed-tag>::DEFAULT_SCALE_OFFSET”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(68): error C2905: “<unnamed-tag>::DEFAULT_OCTAVE_MAX”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(69): error C2905: “<unnamed-tag>::DEFAULT_NSUBLEVELS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(70): error C2905: “<unnamed-tag>::DEFAULT_DETECTOR_THRESHOLD”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(71): error C2905: “<unnamed-tag>::DEFAULT_MIN_DETECTOR_THRESHOLD”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(72): error C2905: “<unnamed-tag>::DEFAULT_DESCRIPTOR_MODE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(73): error C2905: “<unnamed-tag>::DEFAULT_UPRIGHT”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(74): error C2905: “<unnamed-tag>::DEFAULT_EXTENDED”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(75): error C2905: “<unnamed-tag>::DEFAULT_SAVE_SCALE_SPACE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(76): error C2905: “<unnamed-tag>::DEFAULT_VERBOSITY”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(77): error C2905: “<unnamed-tag>::DEFAULT_SHOW_RESULTS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(78): error C2905: “<unnamed-tag>::DEFAULT_SAVE_KEYPOINTS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(81): error C2905: “<unnamed-tag>::DEFAULT_SIGMA_SMOOTHING_DERIVATIVES”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(82): error C2905: “<unnamed-tag>::DEFAULT_KCONTRAST”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(83): error C2905: “<unnamed-tag>::KCONTRAST_PERCENTILE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(84): error C2905: “<unnamed-tag>::KCONTRAST_NBINS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(85): error C2905: “<unnamed-tag>::COMPUTE_KCONTRAST”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(86): error C2905: “<unnamed-tag>::SUBPIXEL_REFINEMENT”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(87): error C2905: “<unnamed-tag>::DEFAULT_DIFFUSIVITY_TYPE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(88): error C2905: “<unnamed-tag>::USE_CLIPPING_NORMALIZATION”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(89): error C2905: “<unnamed-tag>::CLIPPING_NORMALIZATION_RATIO”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(90): error C2905: “<unnamed-tag>::CLIPPING_NORMALIZATION_NITER”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(91): error C2905: “<unnamed-tag>::PI”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(92): error C2905: “<unnamed-tag>::M2_PI”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_features.h(43): error C2059: 语法错误:“namespace”
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_features.h(44): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.h(25): error C2905: “<unnamed-tag>::use_natural_coordinates”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>d:\program\vs\vc\include\fstream(13): error C2059: 语法错误:“namespace”
+     1>d:\program\vs\vc\include\fstream(13): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>d:\program\vs\vc\include\assert.h(32): error C2059: 语法错误:“字符串”
+     1>d:\program\vs\vc\include\assert.h(32): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.h(37): error C2065: “tevolution”: 未声明的标识符
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.h(37): error C2923: “std::vector”: 对于参数“_Ty”，“tevolution”不是有效的 模板 类型变量
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_features.cpp(47): error C2059: 语法错误:“namespace”
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_features.cpp(48): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_features.cpp(235): fatal error C1075: 与左侧的 大括号“{”(位于“e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(63)”)匹配之前遇到文件结束
+         kaze_config.cpp
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(67): error C2905: “<unnamed-tag>::DEFAULT_SCALE_OFFSET”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(68): error C2905: “<unnamed-tag>::DEFAULT_OCTAVE_MAX”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(69): error C2905: “<unnamed-tag>::DEFAULT_NSUBLEVELS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(70): error C2905: “<unnamed-tag>::DEFAULT_DETECTOR_THRESHOLD”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(71): error C2905: “<unnamed-tag>::DEFAULT_MIN_DETECTOR_THRESHOLD”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(72): error C2905: “<unnamed-tag>::DEFAULT_DESCRIPTOR_MODE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(73): error C2905: “<unnamed-tag>::DEFAULT_UPRIGHT”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(74): error C2905: “<unnamed-tag>::DEFAULT_EXTENDED”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(75): error C2905: “<unnamed-tag>::DEFAULT_SAVE_SCALE_SPACE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(76): error C2905: “<unnamed-tag>::DEFAULT_VERBOSITY”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(77): error C2905: “<unnamed-tag>::DEFAULT_SHOW_RESULTS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(78): error C2905: “<unnamed-tag>::DEFAULT_SAVE_KEYPOINTS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(81): error C2905: “<unnamed-tag>::DEFAULT_SIGMA_SMOOTHING_DERIVATIVES”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(82): error C2905: “<unnamed-tag>::DEFAULT_KCONTRAST”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(83): error C2905: “<unnamed-tag>::KCONTRAST_PERCENTILE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(84): error C2905: “<unnamed-tag>::KCONTRAST_NBINS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(85): error C2905: “<unnamed-tag>::COMPUTE_KCONTRAST”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(86): error C2905: “<unnamed-tag>::SUBPIXEL_REFINEMENT”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(87): error C2905: “<unnamed-tag>::DEFAULT_DIFFUSIVITY_TYPE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(88): error C2905: “<unnamed-tag>::USE_CLIPPING_NORMALIZATION”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(89): error C2905: “<unnamed-tag>::CLIPPING_NORMALIZATION_RATIO”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(90): error C2905: “<unnamed-tag>::CLIPPING_NORMALIZATION_NITER”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(91): error C2905: “<unnamed-tag>::PI”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(92): error C2905: “<unnamed-tag>::M2_PI”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.cpp(32): error C3254: “<unnamed-tag>”: 类包含显式重写“{ctor}”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.cpp(32): error C2838: “{ctor}”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.cpp(57): error C3254: “<unnamed-tag>”: 类包含显式重写“{ctor}”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.cpp(57): error C2838: “{ctor}”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.cpp(100): fatal error C1075: 与左侧的 大括号“{”(位于“e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(63)”)匹配之前遇到文件结束
+         KazeOpenCV.cpp
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(67): error C2905: “<unnamed-tag>::DEFAULT_SCALE_OFFSET”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(68): error C2905: “<unnamed-tag>::DEFAULT_OCTAVE_MAX”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(69): error C2905: “<unnamed-tag>::DEFAULT_NSUBLEVELS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(70): error C2905: “<unnamed-tag>::DEFAULT_DETECTOR_THRESHOLD”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(71): error C2905: “<unnamed-tag>::DEFAULT_MIN_DETECTOR_THRESHOLD”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(72): error C2905: “<unnamed-tag>::DEFAULT_DESCRIPTOR_MODE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(73): error C2905: “<unnamed-tag>::DEFAULT_UPRIGHT”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(74): error C2905: “<unnamed-tag>::DEFAULT_EXTENDED”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(75): error C2905: “<unnamed-tag>::DEFAULT_SAVE_SCALE_SPACE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(76): error C2905: “<unnamed-tag>::DEFAULT_VERBOSITY”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(77): error C2905: “<unnamed-tag>::DEFAULT_SHOW_RESULTS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(78): error C2905: “<unnamed-tag>::DEFAULT_SAVE_KEYPOINTS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(81): error C2905: “<unnamed-tag>::DEFAULT_SIGMA_SMOOTHING_DERIVATIVES”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(82): error C2905: “<unnamed-tag>::DEFAULT_KCONTRAST”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(83): error C2905: “<unnamed-tag>::KCONTRAST_PERCENTILE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(84): error C2905: “<unnamed-tag>::KCONTRAST_NBINS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(85): error C2905: “<unnamed-tag>::COMPUTE_KCONTRAST”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(86): error C2905: “<unnamed-tag>::SUBPIXEL_REFINEMENT”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(87): error C2905: “<unnamed-tag>::DEFAULT_DIFFUSIVITY_TYPE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(88): error C2905: “<unnamed-tag>::USE_CLIPPING_NORMALIZATION”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(89): error C2905: “<unnamed-tag>::CLIPPING_NORMALIZATION_RATIO”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(90): error C2905: “<unnamed-tag>::CLIPPING_NORMALIZATION_NITER”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(91): error C2905: “<unnamed-tag>::PI”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(92): error C2905: “<unnamed-tag>::M2_PI”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_features.h(43): error C2059: 语法错误:“namespace”
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_features.h(44): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kazeopencv.cpp(35): error C2059: 语法错误:“namespace”
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kazeopencv.cpp(35): error C2238: 意外的标记位于“;”之前
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kazeopencv.cpp(36): error C2059: 语法错误:“namespace”
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kazeopencv.cpp(36): error C2238: 意外的标记位于“;”之前
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kazeopencv.cpp(39): error C2061: 语法错误: 标识符“string”
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kazeopencv.cpp(66): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kazeopencv.cpp(66): error C2143: 语法错误 : 缺少“,”(在“<”的前面)
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kazeopencv.cpp(109): error C2061: 语法错误: 标识符“Mat”
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kazeopencv.cpp(147): error C2061: 语法错误: 标识符“Mat”
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kazeopencv.cpp(184): error C2061: 语法错误: 标识符“Mat”
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kazeopencv.cpp(397): fatal error C1075: 与左侧的 大括号“{”(位于“e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(63)”)匹配之前遇到文件结束
+         kaze.cpp
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(67): error C2905: “<unnamed-tag>::DEFAULT_SCALE_OFFSET”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(68): error C2905: “<unnamed-tag>::DEFAULT_OCTAVE_MAX”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(69): error C2905: “<unnamed-tag>::DEFAULT_NSUBLEVELS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(70): error C2905: “<unnamed-tag>::DEFAULT_DETECTOR_THRESHOLD”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(71): error C2905: “<unnamed-tag>::DEFAULT_MIN_DETECTOR_THRESHOLD”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(72): error C2905: “<unnamed-tag>::DEFAULT_DESCRIPTOR_MODE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(73): error C2905: “<unnamed-tag>::DEFAULT_UPRIGHT”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(74): error C2905: “<unnamed-tag>::DEFAULT_EXTENDED”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(75): error C2905: “<unnamed-tag>::DEFAULT_SAVE_SCALE_SPACE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(76): error C2905: “<unnamed-tag>::DEFAULT_VERBOSITY”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(77): error C2905: “<unnamed-tag>::DEFAULT_SHOW_RESULTS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(78): error C2905: “<unnamed-tag>::DEFAULT_SAVE_KEYPOINTS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(81): error C2905: “<unnamed-tag>::DEFAULT_SIGMA_SMOOTHING_DERIVATIVES”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(82): error C2905: “<unnamed-tag>::DEFAULT_KCONTRAST”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(83): error C2905: “<unnamed-tag>::KCONTRAST_PERCENTILE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(84): error C2905: “<unnamed-tag>::KCONTRAST_NBINS”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(85): error C2905: “<unnamed-tag>::COMPUTE_KCONTRAST”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(86): error C2905: “<unnamed-tag>::SUBPIXEL_REFINEMENT”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(87): error C2905: “<unnamed-tag>::DEFAULT_DIFFUSIVITY_TYPE”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(88): error C2905: “<unnamed-tag>::USE_CLIPPING_NORMALIZATION”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(89): error C2905: “<unnamed-tag>::CLIPPING_NORMALIZATION_RATIO”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(90): error C2905: “<unnamed-tag>::CLIPPING_NORMALIZATION_NITER”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(91): error C2905: “<unnamed-tag>::PI”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_config.h(92): error C2905: “<unnamed-tag>::M2_PI”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze_nldiffusion_functions.h(25): error C2905: “<unnamed-tag>::use_natural_coordinates”: 非类范围内的匿名联合的成员不允许类内初始值设定项
+     1>d:\program\vs\vc\include\fstream(13): error C2059: 语法错误:“namespace”
+     1>d:\program\vs\vc\include\fstream(13): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>d:\program\vs\vc\include\assert.h(32): error C2059: 语法错误:“字符串”
+     1>d:\program\vs\vc\include\assert.h(32): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.h(37): error C2065: “tevolution”: 未声明的标识符
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.h(37): error C2923: “std::vector”: 对于参数“_Ty”，“tevolution”不是有效的 模板 类型变量
+     1>d:\program\vs\vc\include\iostream(12): error C2059: 语法错误:“namespace”
+     1>d:\program\vs\vc\include\iostream(12): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>d:\program\vs\vc\include\xfunctional(21): error C2059: 语法错误:“namespace”
+     1>d:\program\vs\vc\include\xfunctional(21): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>d:\program\vs\vc\include\functional(19): error C2059: 语法错误:“namespace”
+     1>d:\program\vs\vc\include\functional(19): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>d:\program\vs\vc\include\functional(1419): error C2059: 语法错误:“namespace”
+     1>d:\program\vs\vc\include\functional(1419): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(40): error C2059: 语法错误:“namespace”
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(40): error C2238: 意外的标记位于“;”之前
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(78): error C3254: “<unnamed-tag>”: 类包含显式重写“{ctor}”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(78): error C2838: “{ctor}”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(115): error C3254: “<unnamed-tag>”: 类包含显式重写“Allocate_Memory_Evolution”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(115): error C2838: “Allocate_Memory_Evolution”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(167): error C3254: “<unnamed-tag>”: 类包含显式重写“Create_Nonlinear_Scale_Space”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(167): error C2838: “Create_Nonlinear_Scale_Space”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(264): error C3254: “<unnamed-tag>”: 类包含显式重写“Compute_KContrast”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(264): error C2838: “Compute_KContrast”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(288): error C3254: “<unnamed-tag>”: 类包含显式重写“Compute_Multiscale_Derivatives”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(288): error C2838: “Compute_Multiscale_Derivatives”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(332): error C3254: “<unnamed-tag>”: 类包含显式重写“Compute_Detector_Response”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(332): error C2838: “Compute_Detector_Response”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(385): error C3254: “<unnamed-tag>”: 类包含显式重写“Feature_Detection”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(385): error C2838: “Feature_Detection”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(437): error C3254: “<unnamed-tag>”: 类包含显式重写“Determinant_Hessian_Parallel”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(437): error C2838: “Determinant_Hessian_Parallel”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(513): error C3254: “<unnamed-tag>”: 类包含显式重写“Find_Extremum_Threading”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(513): error C2838: “Find_Extremum_Threading”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(589): error C3254: “<unnamed-tag>”: 类包含显式重写“Do_Subpixel_Refinement”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(589): error C2838: “Do_Subpixel_Refinement”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(693): error C3254: “<unnamed-tag>”: 类包含显式重写“Feature_Suppression_Distance”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(693): error C2838: “Feature_Suppression_Distance”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(758): error C3254: “<unnamed-tag>”: 类包含显式重写“Feature_Description”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(758): error C2838: “Feature_Description”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(915): error C3254: “<unnamed-tag>”: 类包含显式重写“Compute_Main_Orientation_SURF”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(915): error C2838: “Compute_Main_Orientation_SURF”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1010): error C3254: “<unnamed-tag>”: 类包含显式重写“Get_SURF_Upright_Descriptor_64”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1010): error C2838: “Get_SURF_Upright_Descriptor_64”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1115): error C3254: “<unnamed-tag>”: 类包含显式重写“Get_SURF_Descriptor_64”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1115): error C2838: “Get_SURF_Descriptor_64”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1231): error C3254: “<unnamed-tag>”: 类包含显式重写“Get_MSURF_Upright_Descriptor_64”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1231): error C2838: “Get_MSURF_Upright_Descriptor_64”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1369): error C3254: “<unnamed-tag>”: 类包含显式重写“Get_MSURF_Descriptor_64”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1369): error C2838: “Get_MSURF_Descriptor_64”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1511): error C3254: “<unnamed-tag>”: 类包含显式重写“Get_GSURF_Upright_Descriptor_64”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1511): error C2838: “Get_GSURF_Upright_Descriptor_64”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1654): error C3254: “<unnamed-tag>”: 类包含显式重写“Get_GSURF_Descriptor_64”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1654): error C2838: “Get_GSURF_Descriptor_64”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1800): error C3254: “<unnamed-tag>”: 类包含显式重写“Get_SURF_Upright_Descriptor_128”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1800): error C2838: “Get_SURF_Upright_Descriptor_128”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1930): error C3254: “<unnamed-tag>”: 类包含显式重写“Get_SURF_Descriptor_128”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(1930): error C2838: “Get_SURF_Descriptor_128”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2069): error C3254: “<unnamed-tag>”: 类包含显式重写“Get_MSURF_Upright_Descriptor_128”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2069): error C2838: “Get_MSURF_Upright_Descriptor_128”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2234): error C3254: “<unnamed-tag>”: 类包含显式重写“Get_MSURF_Descriptor_128”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2234): error C2838: “Get_MSURF_Descriptor_128”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2406): error C3254: “<unnamed-tag>”: 类包含显式重写“Get_GSURF_Upright_Descriptor_128”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2406): error C2838: “Get_GSURF_Upright_Descriptor_128”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2570): error C3254: “<unnamed-tag>”: 类包含显式重写“Get_GSURF_Descriptor_128”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2570): error C2838: “Get_GSURF_Descriptor_128”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2742): error C3254: “<unnamed-tag>”: 类包含显式重写“AOS_Step_Scalar”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2742): error C2838: “AOS_Step_Scalar”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2793): error C3254: “<unnamed-tag>”: 类包含显式重写“AOS_Rows”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2793): error C2838: “AOS_Rows”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2851): error C3254: “<unnamed-tag>”: 类包含显式重写“AOS_Columns”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2851): error C2838: “AOS_Columns”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2903): error C3254: “<unnamed-tag>”: 类包含显式重写“Thomas”，但并不从包含函数声明的接口派生
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(2903): error C2838: “Thomas”: 成员声明中的非法限定名
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(3039): error C2535: “float <unnamed-tag>::Get_Angle(float,float)”: 已经定义或声明成员函数
+                 e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.h(121) : 参见“<unnamed-tag>::Get_Angle”的声明
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(3074): error C2535: “void <unnamed-tag>::Clipping_Descriptor(<unnamed-tag>::Ipoint &,int,float)”: 已经定义或声明成员函数
+                 e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.h(124) : 参见“<unnamed-tag>::Clipping_Descriptor”的声明
+     1>e:\local repositories\kaze\kaze_opencv\kaze_opencv\kaze.cpp(3074): fatal error C1003: 错误计数超过 100；正在停止编译
+         正在生成代码...
+     1>已完成生成项目“E:\Local Repositories\KAZE\KAZE_OpenCV\KAZE_OpenCV\KAZE_OpenCV.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:04.99
