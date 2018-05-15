@@ -14,6 +14,7 @@
 // !! Please enable /openmp in your project configurations (in /C++/Language) in Visual Studio
 //    If you have installed and included Boost in your project, 
 //    please set 'HAVE_BOOST_THREADING' to 1 in ./KAZE/kaze_config.h to enable Boost-based multi-threading
+//多线程 把HAVE_BOOST_THREADING置1
 #include "KAZE/kaze_features.h"
 
 #pragma comment( lib, cvLIB("core") )
@@ -24,6 +25,7 @@
 #pragma comment( lib, cvLIB("calib3d") )
 
 // Define 'USE_SIFT' to use SIFT keypoints instead of KAZE for comparation 
+//用SIFT对比
 #define USE_SIFT 1    
 
 #ifdef USE_SIFT
@@ -36,6 +38,7 @@ using namespace cv;
 using namespace std;
 
 // @brief Show text in the upper left corner of the image
+//图片左上角设文字
 void showText(cv::Mat& img, string text)
 {
     int fontFace = cv::FONT_HERSHEY_SIMPLEX;
@@ -49,6 +52,7 @@ void showText(cv::Mat& img, string text)
     textBaseline += fontThickness;
 
     // put the text at upper right corner
+//右上角设置文字
     //cv::Point textOrg((img.cols - textSize.width - 10), textSize.height + 10);
     cv::Point textOrg(10, textSize.height + 10); // upper left corner
 
@@ -94,15 +98,15 @@ bool findHomography( const vector<KeyPoint>& source, const vector<KeyPoint>& res
         cv::Point2f actual = srcPoints[i];
         cv::Point2f expect = srcReprojected[i];
         cv::Point2f v = actual - expect;
-        float distanceSquared = v.dot(v);
+        float distanceSquared = v.dot(v);//距离平方
 
         if (/*status[i] && */distanceSquared <= reprojectionThreshold * reprojectionThreshold)
         {
-            inliers.push_back(input[i]);
+            inliers.push_back(input[i]);//距离小于阈值的被认为是正确匹配的
         }
     }
 
-    return inliers.size() >= 4;
+    return inliers.size() >= 4;//匹配对大于4对时正确退出
 }
 
 // @brief Use BFMatcher to match descriptors
@@ -127,7 +131,7 @@ void bfMatch( Mat& descriptors_1, Mat& descriptors_2, vector<DMatch>& good_match
         { 
             double dist = matches[i].distance;
             if( dist < min_dist ) min_dist = dist;
-            if( dist > max_dist ) max_dist = dist;
+            if( dist > max_dist ) max_dist = dist;//计算出最大最小距离
         }
         //thresh = MAX(2*min_dist, min_dist + 0.5*(max_dist - min_dist));
         thresh = 2*min_dist;
@@ -276,6 +280,8 @@ int main(int argc, char** argv)
 
         //-- Detect keypoints and calculate descriptors 
 #ifdef USE_SIFT
+		cv::SiftFeatureDetector detector_2;
+		cv::SiftDescriptorExtractor extractor_2;
         detector_2.detect(img_2, keypoints_2);
         extractor_2.compute(img_2,keypoints_2,descriptors_2);
 #else

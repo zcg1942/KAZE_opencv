@@ -13,7 +13,7 @@
 /**
  * @file KAZE.cpp
  * @brief Main class for detecting and describing features in a nonlinear
- * scale space
+ * scale space¼ì²âºÍÃèÊöÌØÕ÷
  * @date Dec 11, 2014
  * @author Pablo F. Alcantarilla
  */
